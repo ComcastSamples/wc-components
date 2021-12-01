@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html } from 'lit'
 import { anchors } from './styles';
 
 class WCFooter extends LitElement {

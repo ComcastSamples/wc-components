@@ -1,5 +1,5 @@
-import { LitElement, html } from 'lit-element';
-import { render } from 'lit-html';
+import { LitElement, html } from 'lit';
+import { render } from 'lit/html.js';
 import { anchors } from './styles';
 
 const styles = document.createElement('style');
