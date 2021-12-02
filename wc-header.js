@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html } from 'lit';
 
 /*
   Figure out how to add these styles to the global document
