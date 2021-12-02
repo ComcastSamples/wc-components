@@ -24,9 +24,9 @@
     "rollup-plugin-sass": "^1.2.2"
   },
   "scripts": {
-    "start": "rollup -c rollup.dev.config.js --watch",
+    "build": "NODE_ENV=production rollup -c rollup.config.js",
+    "start": "rollup -c rollup.config.js --watch",
     "lint": "eslint *.js",
-    "build": "rollup -c rollup.prod.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
